@@ -6,7 +6,7 @@ namespace Drones
 
     public partial class Drone
     {
-        private Pen droneBrush = new Pen(new SolidBrush(Color.Purple), 3);
+        private Pen droneBrush = new Pen(new SolidBrush(Color.Red), 3);
 
         // De manière graphique
         public void Render(BufferedGraphics drawingSpace)
